@@ -12,5 +12,10 @@ Given a specified byte count (or "window"), the program calculates the entropy f
 - `byte_count = 2`  2-byte sequence entropy
 - ... and so on
 
+## Compilation
+```bash
+$ gcc -Wall -Wextra -O3 enan.c -o enan -lm
+```
+
 # Usage
 - TODO (command line flags WIP)
